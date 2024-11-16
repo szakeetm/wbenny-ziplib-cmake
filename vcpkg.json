@@ -3,5 +3,15 @@
     "version": "1.0.0",
     "homepage": "https://github.com/szakeetm/wbenny-ziplib-cmake",
     "description": "Wbenny's standalone C++11 library for zip file management",
-    "license": "GPLv3"
+    "license": "GPLv3",
+    "dependencies": [
+        {
+          "name" : "vcpkg-cmake",
+          "host" : true
+        },
+        {
+          "name" : "vcpkg-cmake-config",
+          "host" : true
+        }
+      ]
   }
