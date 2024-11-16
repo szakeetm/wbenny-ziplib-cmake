@@ -1,8 +1,10 @@
 # wbenny-ziplib-cmake
 
-CMake version of wbenny's ziplib, for vcpkg
+Cross-platform CMake version of wbenny's ziplib, instead of the author's Visual Studio solution.
 
-Original Visual Studio project: <https://bitbucket.org/wbenny/ziplib>
+Tested on Windows, macOS, Fedora and Debian Linux.
+
+Original project: <https://bitbucket.org/wbenny/ziplib>
 
 ## Build as static library
 
