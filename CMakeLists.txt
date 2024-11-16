@@ -36,11 +36,6 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"
 )
 
-# Disable specific warnings
-if(MSVC)
-    target_compile_options(${PROJECT_NAME} PRIVATE /wd4996)
-endif()
-
 # Add external dependencies
 add_subdirectory(${SOURCE_DIR}/extlibs/bzip2)
 add_subdirectory(${SOURCE_DIR}/extlibs/lzma)
