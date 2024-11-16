@@ -4,7 +4,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Microsoft/vcpkg-docs
     REF "${VERSION}"
-    SHA512 0  # This is a temporary value. We will modify this value in the next section.
+    SHA512 3f206cc2fe61d9c97c82b30852e1e4e6df299d93f6159edd1e56c644fa03ccc4670f7681e356d0e3db898a74e099a1ec531821df5430a7b14d61c743c5aa8c30
     HEAD_REF cmake-sample-lib
 )
 
