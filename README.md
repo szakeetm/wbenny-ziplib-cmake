@@ -21,4 +21,4 @@ make
 * From the main project's CMakeLists.txt:
 * `add_subdirectory(ziplib)`
 * `target_link_libraries(${PROJECT_NAME} PUBLIC ziplib)`
-* From the main project's source files, use #include directives, for example `#include <ziplib/Source/ZipLib/ZipFile.h>`
+* From the main project's source files, use #include directives from the `Source` dir, for example `#include <ZipLib/ZipFile.h>`
