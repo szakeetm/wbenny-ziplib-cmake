@@ -1,6 +1,6 @@
 # wbenny-ziplib-cmake
 
-Cross-platform CMake version of wbenny's ziplib, instead of the author's Visual Studio solution.
+Cross-platform CMake version of Petr Beneš' ziplib, instead of the author's Visual Studio solution.
 
 Tested on Windows, macOS, Fedora and Debian Linux.
 
