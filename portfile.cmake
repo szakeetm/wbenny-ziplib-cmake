@@ -2,10 +2,10 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO szakeetm/wbenny-ziplib-cmake
+    REPO Microsoft/vcpkg-docs
     REF "${VERSION}"
-    SHA512 a5fbc81d53fb61f54bad906b9fb4edaf1c0508ae269733421d98f4d4e64ca6707745670203579bc5bcc57d010f663ceb216d353e7375625807e0c8e3eaccf36d
-    HEAD_REF main
+    SHA512 3f206cc2fe61d9c97c82b30852e1e4e6df299d93f6159edd1e56c644fa03ccc4670f7681e356d0e3db898a74e099a1ec531821df5430a7b14d61c743c5aa8c30
+    HEAD_REF cmake-sample-lib
 )
 
 
